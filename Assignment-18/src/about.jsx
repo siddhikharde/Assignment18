@@ -1,8 +1,12 @@
 import React from 'react'
 import './about.css'
+import Footer from './footer'
+import Navbar from './navbar'
 function About() {
   return (
+
     <div>
+      <Navbar activMenu="/about"/>
       <div className='about-section'>
         <h1>About Us Page</h1>
         <div className='about-content'>
@@ -27,6 +31,7 @@ function About() {
 
         </div>
       </div>
+      <Footer/>
     </div>
   )
 }

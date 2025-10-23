@@ -1,8 +1,11 @@
 import React from 'react'
 import './contact.css'
+import Footer from './footer'
+import Navbar from './navbar'
 function Contact() {
   return (
     <div>
+      <Navbar activMenu="/contact"/>
       <div className='contact-section'>
         <h1>Contact Us Page</h1>
         <div className='contact-content'>
@@ -27,7 +30,7 @@ function Contact() {
         </form>
         </div>
       </div>
-     
+     <Footer/>
     </div>
   )
 }

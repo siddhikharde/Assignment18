@@ -25,11 +25,15 @@
   gap: 40px;
 }
 
-.navbar .links a {
+.navbar .links .menu{
   color: white;
   text-decoration: none;
 }
 
 .navbar .links a:hover {
   text-decoration: underline;
+}
+.menu-active{
+  font-weight: bold;
+  text-decoration:underline ;
 }
